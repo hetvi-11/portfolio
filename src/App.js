@@ -6,10 +6,13 @@ import Hero from "./components/HeroSection";
 import Skills from "./components/Skills";
 import { BrowserRouter as Router } from "react-router-dom";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Projects from "./components/Projects";
-
+import ProjectDetails from "./components/ProjectDetails";
+import Footer from "./components/Footer";
 import { useState} from "react";
-import EducationCard from "./components/cards/EducationCard";
+import Contact from "./components/Contact";
+
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -48,8 +51,13 @@ function App() {
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
-            <EducationCard />
+            <Education />
+            <Contact />
           </Wrapper>
+          <Footer />
+          {openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          }
         </Body>
       </Router>
     </ThemeProvider>
