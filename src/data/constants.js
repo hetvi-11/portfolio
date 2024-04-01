@@ -240,7 +240,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
+    id: 7,
     title: "Face Controlled Snake game",
     date: "May 2023",
     description:
@@ -331,6 +331,27 @@ export const projects = [
     category: "android app",
     github: "https://github.com/hetvi-11/flower-fall",
     webapp: "https://github.com/hetvi-11/flower-fall",
+  },
+  {
+    id: 0,
+    title: "Shareme",
+    date: "Mar 2024",
+    description:
+      "Engineered a Pinterest-inspired social media application, Shareme, focusing on image sharing and enhanced performance with advanced React (hooks, refs, Context API). Integrated OAuth for secure authentication, Stripe for payment processing, and leveraged Sanity for content management.",
+    image:
+      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fuser-images.githubusercontent.com%2F61611882%2F162573360-8b10d17f-a7fe-4406-aaf7-2bf3275dfb03.png&tbnid=_C9zm-tKezsexM&vet=10CAsQMyhpahcKEwiguZHDvKGFAxUAAAAAHQAAAAAQAw..i&imgrefurl=https%3A%2F%2Fgithub.com%2FLucifer8729%2FshareMe-social-media-app&docid=66hj2oa4kMOfCM&w=1280&h=720&q=shareme&ved=0CAsQMyhpahcKEwiguZHDvKGFAxUAAAAAHQAAAAAQAw",
+
+    tags: [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Sanity",
+      "JavaScript",
+      "Google OAuth",
+    ],
+    category: "web development",
+    github: "https://github.com/hetvi-11/shareme",
+    webapp: "https://sharep1n.netlify.app/login",
   },
 ];
 
