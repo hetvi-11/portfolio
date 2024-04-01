@@ -256,7 +256,7 @@ export const projects = [
       "JavaScript",
       "Google OAuth",
     ],
-    category: "web development",
+    category: "web app",
     github: "https://github.com/hetvi-11/shareme",
     webapp: "https://sharep1n.netlify.app/login",
   },
