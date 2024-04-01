@@ -339,7 +339,7 @@ export const projects = [
     description:
       "Engineered a Pinterest-inspired social media application, Shareme, focusing on image sharing and enhanced performance with advanced React (hooks, refs, Context API). Integrated OAuth for secure authentication, Stripe for payment processing, and leveraged Sanity for content management.",
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fuser-images.githubusercontent.com%2F61611882%2F162573360-8b10d17f-a7fe-4406-aaf7-2bf3275dfb03.png&tbnid=_C9zm-tKezsexM&vet=10CAsQMyhpahcKEwiguZHDvKGFAxUAAAAAHQAAAAAQAw..i&imgrefurl=https%3A%2F%2Fgithub.com%2FLucifer8729%2FshareMe-social-media-app&docid=66hj2oa4kMOfCM&w=1280&h=720&q=shareme&ved=0CAsQMyhpahcKEwiguZHDvKGFAxUAAAAAHQAAAAAQAw",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW87gzAtnzpW8Qb7HCnl3NXMVL_71IYMWSyGmSsE-bdysbXStOIOxgLXBC9010NdIAdic&usqp=CAU",
 
     tags: [
       "React",
