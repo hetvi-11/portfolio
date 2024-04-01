@@ -240,6 +240,27 @@ export const education = [
 
 export const projects = [
   {
+    id: 0,
+    title: "Shareme",
+    date: "Mar 2024",
+    description:
+      "Engineered a Pinterest-inspired social media application, Shareme, focusing on image sharing and enhanced performance with advanced React (hooks, refs, Context API). Integrated OAuth for secure authentication, Stripe for payment processing, and leveraged Sanity for content management.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW87gzAtnzpW8Qb7HCnl3NXMVL_71IYMWSyGmSsE-bdysbXStOIOxgLXBC9010NdIAdic&usqp=CAU",
+
+    tags: [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Sanity",
+      "JavaScript",
+      "Google OAuth",
+    ],
+    category: "web development",
+    github: "https://github.com/hetvi-11/shareme",
+    webapp: "https://sharep1n.netlify.app/login",
+  },
+  {
     id: 7,
     title: "Face Controlled Snake game",
     date: "May 2023",
@@ -331,27 +352,6 @@ export const projects = [
     category: "android app",
     github: "https://github.com/hetvi-11/flower-fall",
     webapp: "https://github.com/hetvi-11/flower-fall",
-  },
-  {
-    id: 0,
-    title: "Shareme",
-    date: "Mar 2024",
-    description:
-      "Engineered a Pinterest-inspired social media application, Shareme, focusing on image sharing and enhanced performance with advanced React (hooks, refs, Context API). Integrated OAuth for secure authentication, Stripe for payment processing, and leveraged Sanity for content management.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW87gzAtnzpW8Qb7HCnl3NXMVL_71IYMWSyGmSsE-bdysbXStOIOxgLXBC9010NdIAdic&usqp=CAU",
-
-    tags: [
-      "React",
-      "TypeScript",
-      "Tailwind",
-      "Sanity",
-      "JavaScript",
-      "Google OAuth",
-    ],
-    category: "web development",
-    github: "https://github.com/hetvi-11/shareme",
-    webapp: "https://sharep1n.netlify.app/login",
   },
 ];
 
